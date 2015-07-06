@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--  CSS Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+<!-- Iconos de fontawasome-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	
+	<!-- my css-->
+<link rel="stylesheet" href="style.css">
+
+
+	<title>Freelancer</title>
+</head>
+<body>
+
+
+	
+	<header class="cabecera">
+		<div class=" perfil">
+			<div class="photoperfil">
+				<img src="http://static.diariojuridico.com/wp-content/uploads//2012/05/Eva-Ceca-carnet-200x164.jpg" alt="">
+			</div>
+			<div class="descripcionperfil">
+				<i class="fa fa-unlock fa-2x candado"></i>				
+				<div class="name">Susana Cajera</div>
+			</div>
+		</div>
+		
+		<div class="title">
+			<h2>Retail Name / Logo</h2>
+		</div>
+		<div class="horadate">
+			<div class="date">
+			<script> 
+			var mydate=new Date(); 
+			var year=mydate.getYear(); 
+			if (year < 1000) 
+			year+=1900; 
+			var day=mydate.getDay(); 
+			var month=mydate.getMonth()+1; 
+			if (month<10) 
+			month="0"+month; 
+			var daym=mydate.getDate(); 
+			if (daym<10) 
+			daym="0"+daym; 
+			document.write("<b>"+daym+"/"+month+"/"+year+"</b>") 
+			</script> 
+
+			</div>
+			<div class="hora">
+				<script >
+				var d = new Date();
+				document.write(d.getHours()+":"+d.getMinutes());
+			</script>
+
+			</div>
+		</div>
+	</header>
+
+	<section class="contenedor ">
+		<div class="first-container">
+			<div class="container-left">
+				
+				<div class="descripcioncliente  ">
+					<div class="detalleclienteperfil paneles">
+						<div class="detalles">	
+							<div class="form-group">
+								<label  class="primary" for="cliente">Client N°</label></br>
+								<span><strong>Leonardo Antonio Loyo</strong></span>
+							</div>
+							<div class="form-group">
+								<label  for="id">ID</label></br>
+								<span class=""><strong>123456</strong></span>
+							</div>
+							<div class="form-group">
+								<label for="address">Address</label></br>
+								<span class=""><strong>123456</strong></span>
+							</div>
+							<div class="form-group">
+								<label for="phone">Phone</label></br>
+								<span class=""><strong>123456</strong></span>
+							</div>
+							<div class="form-group">
+								<label for="mail">Mail</label></br>
+								<span class=""><strong>123456</strong></span>
+							</div>
+						</div>
+							<div class="form-group botones">
+								 <button><i class="fa fa-search  iconos fa-2x"></i></button>
+								 <button><i class="fa fa-pencil iconos fa-2x"></i></button>
+								 <button><i class="fa fa-user-plus iconos fa-2x"></i></button>
+							</div>
+					</div>
+					
+				</div>
+				<div class="perfilcliente">
+					<div class="detalleperfilvendedor paneles">	
+							<div class=" perfil-name ">
+								<div class="row col-md-12">
+									<label for="">Vendedor</label>
+								</div>
+								<div class="row col-md-12">
+									<span>Ben Linus</span>
+								</div>
+							</div>
+							<div class=" perfil-imagen ">
+								<div class="imagenperfil">
+								<img src="http://25.media.tumblr.com/tumblr_l4urbu3evH1qzh6sbo1_500.jpg" alt="">
+									
+								</div>
+							</div>
+							<div class=" perfil-icon ">
+								<a><i class="fa fa-refresh fa-3x"></i></a>
+							</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-right ">
+				<div class="descripcionproducto">	
+					<div class="productoview paneles">
+						<div class="detalleproductophoto">
+							<img src="http://thumbs.dreamstime.com/z/zapato-viejo-y-quebrado-1601055.jpg" alt="">
+						</div>
+						<div class="multiplicador">
+							<div class="text-multiplicador">x1</div>
+							
+						</div>
+						<div class="detalleheader"><label for="nombreproducto">Converse Gorillaz 43</label></div>
+						<div class="detallebody">
+							<label for="ref">Ref:###########</label></br>
+							<label for="ref">Code:###########</label>
+						</div>
+						<div class="detallefondo">
+							<div class="detallefondoitem"><label for="precioproducto">199 €</label>
+							<img src="http://www.beneficiostarjetas.cl/skin/frontend/default/descuentos/images/icono_pagcaida.png" alt="">
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="resultadocuenta">
+					<div class="result paneles">
+						<div class="resultado">32</div>
+					</div>
+
+				</div>
+				<div class="cal ">	
+					<div class="calculadora paneles ">
+						
+							<ul>
+						      <li><a>7</a></li>
+						      <li><a>8</a></li>
+						      <li><a>9</a></li>
+						      <li><a><-</a></li>
+						      <li><a>4</a></li>
+						      <li><a>5</a></li>
+						      <li><a>6</a></li>
+						      <li><a>C</a></li>
+						      <li><a>1</a></li>
+						      <li><a>2</a></li>
+						      <li><a>3</a></li>
+						      <li><a id="enter">5</a></li>
+						      
+						      <li id="licero"><a id="cero">0</a></li>
+						      <li><a >,</a></li>
+						      
+						     </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="second-container">
+			<div class="scan">
+				<div class="scanerelement ">
+					<div class="elements paneles">	
+
+						<div class="headerproductos ">
+							<div class="titlecenter">
+							<input type="text" placeholder="ENTER OR ESCAN PRODUCT" >
+								
+							</div>
+						</div>
+						<div class="items ">
+							<div class="item">
+								<div class="descripcion-producto">
+									<div class="nombreproducto"><strong>Converse Gorillaz 43 x1</strong></div>
+									<div class="montoprodcuto">69,95€ -10%</div>
+								</div>
+								<div class="referencia">
+									<div class="itemreferencia">Ref:#########</div>
+									<div class="itemreferencia">Code:######</div>
+									
+								</div>
+								<div class="opcionesproducto ">
+									<div class="sumar">
+										<div id="opc"><a>+</a>
+										</div>
+									</div>
+									<div class="restar">
+										<div id="opc"><a class="rojo">x</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="total ">
+							<div class="detalle1">
+							<div class=" itemdetalle ">Subtotal</div>
+							<div class=" itemdetalle">VAT 21%</div>
+							<div class="detalle1-color itemdetalle ">Discount	</div>
+							</div>
+							<div class="detalle2">
+								<div class="itemdetalle ">110,52 €</div>
+								<div class="itemdetalle ">29,38 €</div>
+								<div class="itemdetalle ">0,00 €</div>
+							</div>
+							<div class="detalle3">
+								<div class="detalletotal">TOTAL</div>
+								<div class=" detalle3-line "><strong>139,90 €</strong></div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="ticket">
+			<div class="ticker">
+					<div class="detalleticke">
+						<label for="" class="col-md-8">Ticket Numero</label>
+						<input type="text"  value="001236">
+					</div>
+					<div class="panel-opciones">
+						<ul id="opciones">
+							<li><a><i class="fa fa-calculator"></i></a></li>
+							<li><a><i class="fa fa-calendar"></i></a></li>
+							<li><a><i class="fa fa-times"></i></a></li>
+							<li><a><i class="fa fa-folder-open"></i></a></li>
+							<li><a><i class="fa fa-file-text"></i></a></li>
+							<li><a><i class="fa fa-print"></i></a></li>
+							<li><a><i class="fa fa-certificate"></i></a></li>
+							<li><a><i class="fa fa-trash-o"></i></a></li>
+							<li><a><i class="fa fa-search"></i></a></li>
+							<li><a><i class="fa fa-tag"></i></a></li>
+							<li><a><i class="fa fa-user"></i></a></li>
+							<li><a><i class="fa fa-shopping-cart"></i></a></li>
+						
+						</ul>
+																		
+					</div>
+					<div class="shop">
+						<button><i class="fa fa-shopping-cart">SHOP</i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--js Bootstrap-->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
